@@ -1,0 +1,93 @@
+body {
+    background-color: #13001fc0;
+    color: #fff;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+#alerts {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.content-page {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 95%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #2b2a2a;
+    padding-top: 25px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-bottom: 45px;
+    border-radius: 12px;
+}
+
+.top-page {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.top-page #uid {
+    background-color: #2b2a2a;
+    border: none;
+    color: #2b2a2a;
+}
+
+.top-page input {
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #191818;
+    outline: none;
+    font-size: 1.2rem;
+    background-color: #191818;
+    color: #fff;
+}
+
+.top-page button {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1px solid #191818;
+    background-color: #191818;
+    color: #fff;
+    outline: none;
+}
+
+.top-page button:hover {
+    background-color: #4dae33;
+    cursor: pointer;
+}
+
+table {
+    font-size: 1.2rem;
+}
+
+.btnAction {
+    border-radius: 20px;
+    border: 1px solid #2c3034;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    cursor: pointer;
+    background-color: #2b2a2a;
+    color: #fff;
+    outline: none;
+}
+
+.btn-delete:hover {
+    background-color: #e2374b;
+}
+
+.btn-edit:hover {
+    background-color: #ffbf00;
+    color: #000;
+}
+
+.none {
+    display: none;
+}
