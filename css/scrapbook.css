@@ -1,3 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2125298c;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(indigo, magenta);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(magenta, indigo);
+}
+
 body {
     background-color: #13001fc0;
     color: #fff;
@@ -6,10 +28,16 @@ body {
     font-size: 1rem;
 }
 
+nav {
+    position: fixed;
+    flex-direction: row;
+    width: 100%;
+}
+
 #alerts {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
 }
 
 .content-page {
